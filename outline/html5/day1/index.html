@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style type="text/css">
+      img.top {
+        vertical-align: text-top;
+        height: 40px;
+        width: 40px;
+      }
+      img.bottom {
+        vertical-align: text-bottom;
+        height: 40px;
+        width: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <ruby>
+      你<rp>(</rp><rt>nǐ</rt><rp>)</rp> 好<rp>(</rp><rt>hǎo</rt><rp>)</rp>
+      <!-- <ruby> 元素由一个或多个需要解释/发音的字符和一个提供该信息的 <rt> 元素组成，还包括可选的 <rp> 元素，定义当浏览器不支持 "ruby" 元素时显示的内容。 -->
+    </ruby>
+    <ruby> 你<rt>nǐ</rt> 好<rt>hǎo</rt> </ruby>
+    <div>
+      <p>这张图<img class="top" border="0" src="1.jpg" />顶端与文字平齐</p>
+
+      <p>这张图<img class="bottom" border="0" src="1.jpg" />底端与文字平齐</p>
+    </div>
+  </body>
+</html>
